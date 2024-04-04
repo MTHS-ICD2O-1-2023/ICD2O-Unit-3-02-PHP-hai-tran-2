@@ -40,6 +40,7 @@
 
           // process
           $volumeOfPyramid = ($lengthOfPyramid * $widthOfPyramid * $heightOfPyramid) / 3;
+          $roundedVolumeOfPyramid = round($volumeOfPyramid, 2);
 
           // output
           echo "The area is: " . $volumeOfPyramid . " mm³";
