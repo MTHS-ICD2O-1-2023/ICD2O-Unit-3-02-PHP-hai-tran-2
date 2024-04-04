@@ -43,7 +43,7 @@
           $roundedVolumeOfPyramid = round($volumeOfPyramid, 2);
 
           // output
-          echo "The area is: " . $volumeOfPyramid . " mm³";
+          echo "The area is: " . $roundedVolumeOfPyramid . " mm³";
           ?>
         </div>
       </div>
