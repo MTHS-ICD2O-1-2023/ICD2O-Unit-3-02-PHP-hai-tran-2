@@ -39,7 +39,7 @@
         <!-- Numeric Textfield with Floating Label -->
         Length:
         <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="length-of-pyramid" step="0.01" />
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" name="length-of-pyramid" step="0.01" />
           <label class="mdl-textfield__label" for="length-of-pyramid"></label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
